@@ -883,11 +883,6 @@ class OMD_BridgeTreatment
 			return;
 		}
 
-		if (configDuration <= 0 && entry.bandageEffectiveDurationSeconds > 0)
-		{
-			effectiveDuration = entry.bandageEffectiveDurationSeconds;
-		}
-
 		if (configRegen < 1 && entry.bandageRegenerationMultiplier >= 1)
 		{
 			regenerationMultiplier = entry.bandageRegenerationMultiplier;

@@ -104,7 +104,6 @@ class OMD_BridgeConfig
 		s_Data.scratchesDeepWoundRate = 12;
 		s_Data.scratchesDeepWoundRateBoostCount = 2;
 		s_Data.scratchesDeepWoundRateBoost = 5;
-		s_Data.scratchesToDeepWoundCooldownSeconds = 0;
 		s_Data.handsDebuffAttackShockMedium = 2;
 		s_Data.handsDebuffAttackShockBadly = 4;
 		s_Data.handsDebuffAdsShockLow = 0.35;
@@ -172,7 +171,6 @@ class OMD_BridgeConfig
 		s_Data.deepWoundSeverityColorLight = ARGB(255, 255, 230, 0);
 		s_Data.deepWoundSeverityColorMedium = ARGB(255, 255, 140, 0);
 		s_Data.deepWoundSeverityColorHeavy = ARGB(255, 255, 40, 40);
-		s_Data.tourniquetEnabled = false;
 		s_Data.serviceHitAmmo = new array<string>;
 		s_Data.serviceHitAmmo.Insert("OMD_Ammo_Blunt");
 		s_Data.armorBlocksScratch = true;
@@ -237,11 +235,6 @@ class OMD_BridgeConfig
 		if (s_Data.scratchesDeepWoundRateBoost <= 0)
 		{
 			s_Data.scratchesDeepWoundRateBoost = 5;
-		}
-
-		if (s_Data.scratchesToDeepWoundCooldownSeconds < 0)
-		{
-			s_Data.scratchesToDeepWoundCooldownSeconds = 0;
 		}
 	}
 
@@ -452,17 +445,17 @@ class OMD_BridgeConfig
 			s_Data.treatments = new array<ref OMD_BridgeTreatmentEntry>;
 		}
 
-		AppendTreatmentDefault("TerjePlaster", "scratch", 0, 1, 1, 1);
-		AppendTreatmentDefault("BandageDressing", "bandage", 600, 1.5, 1, 1);
-		AppendTreatmentDefault("TerjeBandageHemostatic", "bandage", 900, 2, 1, 1);
-		AppendTreatmentDefault("Rag", "bandage", 300, 1, 1, 1);
-		AppendTreatmentDefault("Bandana_ColorBase", "bandage", 300, 1, 1, 1);
-		AppendTreatmentDefault("TerjeSurgicalKit", "surgery", 0, 1, 1, 1);
-		AppendTreatmentDefault("TerjeSurgicalTool_ColorBase", "surgery", 0, 1, 1, 1);
-		AppendTreatmentDefault("Splint", "splint", 0, 1, 1.5, 1.5);
+		AppendTreatmentDefault("TerjePlaster", "scratch", 1, 1, 1);
+		AppendTreatmentDefault("BandageDressing", "bandage", 1.5, 1, 1);
+		AppendTreatmentDefault("TerjeBandageHemostatic", "bandage", 2, 1, 1);
+		AppendTreatmentDefault("Rag", "bandage", 1, 1, 1);
+		AppendTreatmentDefault("Bandana_ColorBase", "bandage", 1, 1, 1);
+		AppendTreatmentDefault("TerjeSurgicalKit", "surgery", 1, 1, 1);
+		AppendTreatmentDefault("TerjeSurgicalTool_ColorBase", "surgery", 1, 1, 1);
+		AppendTreatmentDefault("Splint", "splint", 1, 1.5, 1.5);
 	}
 
-	static void AppendTreatmentDefault(string className, string healType, float bandageDuration, float bandageRegen, float splintShock, float splintRegen)
+	static void AppendTreatmentDefault(string className, string healType, float bandageRegen, float splintShock, float splintRegen)
 	{
 		if (!s_Data)
 		{
@@ -493,7 +486,6 @@ class OMD_BridgeConfig
 		OMD_BridgeTreatmentEntry entry = new OMD_BridgeTreatmentEntry();
 		entry.className = className;
 		entry.healType = healType;
-		entry.bandageEffectiveDurationSeconds = bandageDuration;
 		entry.bandageRegenerationMultiplier = bandageRegen;
 		entry.splintShockReductionMultiplier = splintShock;
 		entry.splintRegenerationMultiplier = splintRegen;
@@ -1990,16 +1982,5 @@ class OMD_BridgeConfig
 		}
 
 		return data.deepWoundSeverityColorHeavy;
-	}
-
-	static bool IsTourniquetEnabled()
-	{
-		OMD_BridgeConfigData data = Get();
-		if (!data)
-		{
-			return false;
-		}
-
-		return data.tourniquetEnabled;
 	}
 };

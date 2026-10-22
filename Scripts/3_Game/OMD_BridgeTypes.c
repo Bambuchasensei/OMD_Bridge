@@ -9,7 +9,6 @@ class OMD_BridgeTreatmentEntry
 {
 	string className;
 	string healType;
-	float bandageEffectiveDurationSeconds;
 	float bandageRegenerationMultiplier;
 	float splintShockReductionMultiplier;
 	float splintRegenerationMultiplier;
@@ -53,7 +52,6 @@ class OMD_BridgeConfigData
 	float scratchesDeepWoundRate = 12;
 	int scratchesDeepWoundRateBoostCount = 2;
 	float scratchesDeepWoundRateBoost = 5;
-	float scratchesToDeepWoundCooldownSeconds = 0;
 
 	float handsDebuffAttackShockMedium = 2;
 	float handsDebuffAttackShockBadly = 4;
@@ -130,7 +128,6 @@ class OMD_BridgeConfigData
 	int deepWoundSeverityColorLight = 0;
 	int deepWoundSeverityColorMedium = 0;
 	int deepWoundSeverityColorHeavy = 0;
-	bool tourniquetEnabled = false;
 	string treatmentSelectionMode = "manual";
 	ref array<string> serviceHitAmmo;
 	bool armorBlocksScratch = true;
