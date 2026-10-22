@@ -1,0 +1,1328 @@
+FrameWidgetClass OMD_Bridge_BadgeRoot {
+	visible 0
+	ignorepointer 1
+	{
+		FrameWidgetClass pain_hands_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/arms.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass PainRed {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/pain_red.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass PainOrange {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/pain_orange.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass PainYellow {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/pain_yellow.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass pain_feet_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/legs.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass PainRed {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/pain_red.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass PainOrange {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/pain_orange.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass PainYellow {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/pain_yellow.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass break_hands_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/arms.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass BoneBreak {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/bone_break.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass BoneBreakSplinted {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/bone_break_splinted.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass TendencyFirst {
+					visible 0
+					size 9 9
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/tendency.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass TendencySecond {
+					visible 0
+					size 9 9
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/tendency.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass TendencyThird {
+					visible 0
+					size 9 9
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/tendency.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass deep_wound_hands_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/arms.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass DeepWound {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/deep_wound.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass DeepWoundBandaged {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/deep_wound_bandaged.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass DeepWoundBandagedIneffective {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/deep_wound_bandaged_ineffective.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass bullet_hands_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/arms.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Bullet {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/bullet.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Counter1 {
+					visible 0
+					size 12 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/counter_1.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Counter2 {
+					visible 0
+					size 12 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/counter_2.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Counter3 {
+					visible 0
+					size 12 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/counter_3.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass break_feet_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/legs.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass BoneBreak {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/bone_break.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass BoneBreakSplinted {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/bone_break_splinted.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass TendencyFirst {
+					visible 0
+					size 9 9
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/tendency.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass TendencySecond {
+					visible 0
+					size 9 9
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/tendency.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass TendencyThird {
+					visible 0
+					size 9 9
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/tendency.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass deep_wound_feet_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/legs.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass DeepWound {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/deep_wound.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass DeepWoundBandaged {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/deep_wound_bandaged.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass DeepWoundBandagedIneffective {
+					visible 0
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/deep_wound_bandaged_ineffective.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass bullet_feet_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/legs.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Bullet {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/bullet.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Counter1 {
+					visible 0
+					size 12 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/counter_1.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Counter2 {
+					visible 0
+					size 12 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/counter_2.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Counter3 {
+					visible 0
+					size 12 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/counter_3.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass scratch_hands_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/arms.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Scratch {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 16 16
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				TextWidgetClass Count {
+					visible 0
+					ignorepointer 1
+					color 0.95 0.2 0.15 1
+					position 14 0
+					size 14 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					text "1"
+					font "gui/fonts/sdf_MetronLight24"
+					"exact text" 0
+					text_proportion 0.85
+					"size to text h" 0
+					"text halign" center
+					"text valign" center
+				}
+			}
+		}
+		FrameWidgetClass scratch_feet_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/legs.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Scratch {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 16 16
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				TextWidgetClass Count {
+					visible 0
+					ignorepointer 1
+					color 0.95 0.2 0.15 1
+					position 14 0
+					size 14 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					text "1"
+					font "gui/fonts/sdf_MetronLight24"
+					"exact text" 0
+					text_proportion 0.85
+					"size to text h" 0
+					"text halign" center
+					"text valign" center
+				}
+			}
+		}
+		FrameWidgetClass scratch_head_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/head.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Scratch {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 16 16
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				TextWidgetClass Count {
+					visible 0
+					ignorepointer 1
+					color 0.95 0.2 0.15 1
+					position 14 0
+					size 14 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					text "1"
+					font "gui/fonts/sdf_MetronLight24"
+					"exact text" 0
+					text_proportion 0.85
+					"size to text h" 0
+					"text halign" center
+					"text valign" center
+				}
+			}
+		}
+		FrameWidgetClass scratch_arms_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/arms.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Scratch {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 16 16
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				TextWidgetClass Count {
+					visible 0
+					ignorepointer 1
+					color 0.95 0.2 0.15 1
+					position 14 0
+					size 14 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					text "1"
+					font "gui/fonts/sdf_MetronLight24"
+					"exact text" 0
+					text_proportion 0.85
+					"size to text h" 0
+					"text halign" center
+					"text valign" center
+				}
+			}
+		}
+		FrameWidgetClass scratch_legs_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/legs.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Scratch {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 16 16
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				TextWidgetClass Count {
+					visible 0
+					ignorepointer 1
+					color 0.95 0.2 0.15 1
+					position 14 0
+					size 14 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					text "1"
+					font "gui/fonts/sdf_MetronLight24"
+					"exact text" 0
+					text_proportion 0.85
+					"size to text h" 0
+					"text halign" center
+					"text valign" center
+				}
+			}
+		}
+		FrameWidgetClass scratch_torso_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/torso.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Scratch {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 16 16
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				TextWidgetClass Count {
+					visible 0
+					ignorepointer 1
+					color 0.95 0.2 0.15 1
+					position 14 0
+					size 14 12
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					text "1"
+					font "gui/fonts/sdf_MetronLight24"
+					"exact text" 0
+					text_proportion 0.85
+					"size to text h" 0
+					"text halign" center
+					"text valign" center
+				}
+			}
+		}
+		FrameWidgetClass suture_head_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/head.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Suture {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 18 18
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass suture_arms_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_Bridge/gui/badges/arm.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Suture {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 18 18
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass suture_legs_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "OMD_Bridge/gui/badges/leg.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Suture {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 18 18
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass suture_torso_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/torso.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Suture {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 18 18
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass suture_hands_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/arms.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Suture {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 18 18
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+		FrameWidgetClass suture_feet_frame {
+			visible 0
+			ignorepointer 1
+			size 40 40
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			fixaspect fixwidth
+			{
+				ImageWidgetClass Limb {
+					visible 1
+					size 40 40
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 "InediaInfectedAI/gui/badges/inediainfectedai/legs.paa"
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+				ImageWidgetClass Suture {
+					visible 0
+					ignorepointer 1
+					position 0 0
+					size 18 18
+					hexactpos 1
+					vexactpos 1
+					hexactsize 1
+					vexactsize 1
+					scaled 1
+					fixaspect fixwidth
+					image0 ""
+					mode blend
+					"src alpha" 1
+					"clamp mode" clamp
+					"stretch mode" stretch_w_h
+				}
+			}
+		}
+	}
+}

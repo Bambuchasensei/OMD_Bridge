@@ -1,0 +1,11 @@
+name = "OMD Bridge";
+picture = "";
+logoSmall = "";
+logo = "";
+logoOver = "";
+tooltip = "OMD Bridge — Inedia ↔ Terje bridge and limb corrector";
+overview = "Bridge and corrector between Inedia limbs/pain and Terje medicine/skills. Adds hands/feet limbs.";
+action = "";
+author = "OMD";
+authorID = "0";
+version = "0.1.0";

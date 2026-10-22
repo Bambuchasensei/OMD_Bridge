@@ -1,0 +1,49 @@
+FrameWidgetClass OMD_Bridge_ScratchOverlayRoot {
+	visible 1
+	ignorepointer 1
+	position 0 0
+	size 40 40
+	hexactpos 1
+	vexactpos 1
+	hexactsize 1
+	vexactsize 1
+	scaled 1
+	keepaspect fixwidth
+	{
+		ImageWidgetClass Scratch {
+			visible 0
+			ignorepointer 1
+			position 0 0
+			size 16 16
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			scaled 1
+			keepaspect fixwidth
+			image0 ""
+			mode blend
+			"src alpha" 1
+			"clamp mode" clamp
+			"stretch mode" stretch_w_h
+		}
+		TextWidgetClass Count {
+			visible 0
+			ignorepointer 1
+			color 0.95 0.2 0.15 1
+			position 14 0
+			size 14 12
+			hexactpos 1
+			vexactpos 1
+			hexactsize 1
+			vexactsize 1
+			text "1"
+			font "gui/fonts/sdf_MetronLight24"
+			"exact text" 0
+			text_proportion 0.85
+			"size to text h" 0
+			"text halign" center
+			"text valign" center
+		}
+	}
+}
